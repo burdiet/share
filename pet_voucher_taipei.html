@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 農業部 300元寵物券｜雙北（台北・新北）適用店家與優惠總整理</title>
+  <style>
+    :root {
+      --primary: #d97706;
+      --primary-light: #fef3c7;
+      --primary-dark: #b45309;
+      --secondary: #0f766e;
+      --secondary-light: #ccfbf1;
+      --bg: #fafaf9;
+      --card-bg: #ffffff;
+      --text: #1c1917;
+      --text-muted: #57534e;
+      --border: #e7e5e4;
+      --danger: #dc2626;
+      --danger-light: #fee2e2;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    header .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.22);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      opacity: 0.95;
+      max-width: 680px;
+      margin: 0 auto 20px;
+    }
+
+    .cta-group {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    .btn-white {
+      background: #ffffff;
+      color: var(--primary-dark);
+    }
+
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    .btn-secondary {
+      background: var(--secondary);
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    .section-title {
+      font-size: 1.45rem;
+      margin: 32px 0 16px;
+      padding-left: 12px;
+      border-left: 5px solid var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .summary-banner {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #166534;
+      padding: 16px 20px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+    }
+
+    /* Notice Grid */
+    .rules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .rule-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+    }
+
+    .rule-card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 8px;
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .rule-card p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    /* Highlight Banner (Wonderpet) */
+    .highlight-box {
+      background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+      border: 2px solid #f59e0b;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 32px;
+      position: relative;
+      box-shadow: 0 4px 16px rgba(245, 158, 11, 0.12);
+    }
+
+    .highlight-tag {
+      display: inline-block;
+      background: var(--danger);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .highlight-box h2 {
+      font-size: 1.5rem;
+      color: #92400e;
+      margin-bottom: 8px;
+    }
+
+    .gift-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .gift-item {
+      background: #ffffff;
+      border: 1px solid #fde68a;
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .gift-item strong {
+      display: block;
+      color: var(--primary-dark);
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+
+    .gift-item span {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .warning-note {
+      background: var(--danger-light);
+      color: #991b1b;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      margin: 12px 0 16px;
+    }
+
+    /* Store Cards */
+    .store-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 20px;
+    }
+
+    .store-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .store-header {
+      margin-bottom: 12px;
+    }
+
+    .store-header h3 {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .city-badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .city-badge {
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .badge-tp {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .badge-ntpc {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .badge-status {
+      background: #f3f4f6;
+      color: #374151;
+    }
+
+    .promo-desc {
+      background: #f5f5f4;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+      color: #292524;
+    }
+
+    .branch-list {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      padding-left: 18px;
+    }
+
+    .branch-list li {
+      margin-bottom: 4px;
+    }
+
+    .card-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .card-link {
+      font-size: 0.88rem;
+      color: var(--secondary);
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    footer a {
+      color: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.55rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">農業部「毛孩登入計畫」專案整理</div>
+    <h1>🐾 300元寵物券｜雙北適用店家與加碼優惠</h1>
+    <p>台北市（約 52 家）・新北市（約 75 家）9 大合作連鎖寵物通路逐一清查懶人包</p>
+    <div class="cta-group">
+      <a class="btn btn-white" href="https://www.pet.gov.tw/Web2/ExclusiveEvents.html" target="_blank" rel="noopener noreferrer">
+        🔍 農業部官方合作門市查詢
+      </a>
+      <a class="btn btn-outline" href="https://www.cpc.tw/" target="_blank" rel="noopener noreferrer">
+        📋 寵物商業同業公會全國聯合會公告
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- 基本使用規則 -->
+    <h2 class="section-title">📌 寵物券使用規則與重要提醒</h2>
+    <div class="rules-grid">
+      <div class="rule-card">
+        <h3>⏰ 使用期限</h3>
+        <p>即日起至 <strong>2026年12月10日（四）</strong> 止，逾期自動作廢，請務必於期限前折抵完畢。</p>
+      </div>
+      <div class="rule-card">
+        <h3>🏬 僅限實體門市</h3>
+        <p>限持紙本實體寵物券至合作實體店面消費，<strong>網路商城與線上購物皆不適用</strong>。</p>
+      </div>
+      <div class="rule-card">
+        <h3>💰 不找零・不退換</h3>
+        <p>單張面額 300 元，<strong>單次使用不找零、不可兌現</strong>，建議單筆湊滿 300 元以上，折抵後恕不退換貨。</p>
+      </div>
+      <div class="rule-card">
+        <h3>🚫 排除醫療與雙北農會</h3>
+        <p>僅限購買寵物食品與用品，<strong>不適用於動物醫院看診醫療</strong>；此外雙北地區農會並未參與本次合作。</p>
+      </div>
+    </div>
+
+    <div class="summary-banner">
+      <strong>💡 雙北 9 大合作連鎖通路清查結果：</strong><br>
+      經逐一檢索 9 家官方合作連鎖品牌官網與公告，<strong>僅「寵物公園」推出針對 300 元寵物券的獨立放大加碼禮包（300元變900元）</strong>；其餘 8 家連鎖品牌皆為「<strong>純配合收券折抵 300 元</strong>（無寵物券專屬額外贈品，但可直接搭配店內原有的特價品或會員折扣）」。
+    </div>
+
+    <!-- 主打加碼：寵物公園 -->
+    <h2 class="section-title">🔥 唯一獨立加碼活動：寵物公園「300元翻倍變900元」</h2>
+    <section class="highlight-box">
+      <span class="highlight-tag">獨家專案・放大 3 倍</span>
+      <h2>寵物公園 PetPark（萬達寵物）— 寵物券放大術</h2>
+      <p>於 <strong>2026/12/10 前</strong>，加入寵物公園會員並攜帶農業部 300 元實體寵物券至全台適用門市，<strong>單筆消費滿 $300 並完成折抵</strong>，即可於<strong>消費次月 5 號</strong>在 APP 自動獲得總價值 $900 的 5 大豪禮：</p>
+
+      <div class="gift-list">
+        <div class="gift-item">
+          <strong>🎁 好禮 1｜300 點數</strong>
+          <span>會員點數 300 點（可折抵消費）</span>
+        </div>
+        <div class="gift-item">
+          <strong>🎁 好禮 2｜門市 $100 券</strong>
+          <span>實體門市消費滿 $500 現折 $100</span>
+        </div>
+        <div class="gift-item">
+          <strong>🎁 好禮 3｜寵日配 $100 券</strong>
+          <span>線上外送滿 $500 現折 $100</span>
+        </div>
+        <div class="gift-item">
+          <strong>🎁 好禮 4｜寵速配 $100 券</strong>
+          <span>快送服務滿 $500 現折 $100</span>
+        </div>
+        <div class="gift-item">
+          <strong>🎁 好禮 5｜品牌 $300 券</strong>
+          <span>原點、K9、愛肯拿等 12 大品牌滿 $1,000 折 $300</span>
+        </div>
+      </div>
+
+      <div class="warning-note">
+        <strong>⚠️ 雙北不適用門市與限制：</strong><br>
+        • <strong>雙北排除門市</strong>：汐止遠雄店、新莊宏匯店、大全聯南湖店（商場專櫃店不適用，其餘雙北街邊店皆適用）。<br>
+        • <strong>排除服務與品項</strong>：不適用於寵物美容、住宿服務、藥品及部分專櫃商品（水手兩棲爬蟲異寵、水族星球、魚部落）。
+      </div>
+
+      <div class="cta-group" style="justify-content: flex-start;">
+        <a class="btn btn-primary" href="https://www.wonderpet.asia/%E5%AF%B5%E7%89%A9%E5%88%B8%E6%94%BE%E5%A4%A7%E8%A1%93%EF%BC%81300%E5%85%83%E7%9B%B4%E6%8E%A5%E3%80%8C%E7%BF%BB%E5%80%8D%E8%AE%8A-900%E3%80%8D%F0%9F%8E%89/" target="_blank" rel="noopener noreferrer">
+          👉 查看寵物公園活動官方頁面
+        </a>
+        <a class="btn btn-secondary" href="https://www.wonderpet.asia/store/" target="_blank" rel="noopener noreferrer">
+          📍 查詢寵物公園雙北門市
+        </a>
+        <a class="btn btn-secondary" style="background:#1877f2;" href="https://www.facebook.com/wonderpet.asia/" target="_blank" rel="noopener noreferrer">
+          📘 官方 FB 粉專
+        </a>
+      </div>
+    </section>
+
+    <!-- 雙北合作連鎖店家總覽 -->
+    <h2 class="section-title">🏪 雙北其餘 8 家官方合作連鎖通路（純收券折抵＋店內原促銷）</h2>
+    <div class="store-grid">
+
+      <!-- 東森寵物 -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>1. 東森寵物（東森寵物雲）</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-tp">台北市適用</span>
+              <span class="city-badge badge-ntpc">新北市適用</span>
+              <span class="city-badge badge-status">無獨立加碼・可疊加店內優惠</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>官網無獨立寵物券加碼包，但全台實體門市皆可收券折抵 300 元，並可<strong>疊加門市當期促銷價、APP 會員日折扣與行動支付回饋</strong>。
+          </div>
+          <ul class="branch-list">
+            <li>雙北各區（士林、內湖、文山、板橋、新莊、中和、永和、三重、新店、淡水等）實體門市皆適用。</li>
+            <li>注意：附設動物醫院之看診醫療不可使用寵物券。</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.etipets.com/" target="_blank" rel="noopener noreferrer">🔗 東森寵物官網</a>
+          <a class="card-link" href="https://www.etipets.com/store" target="_blank" rel="noopener noreferrer">📍 門市據點</a>
+          <a class="card-link" href="https://www.facebook.com/etipets/" target="_blank" rel="noopener noreferrer">📘 FB 粉專</a>
+        </div>
+      </article>
+
+      <!-- 魚中魚 -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>2. 魚中魚寵物水族</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-ntpc">新北市 8 間大型店</span>
+              <span class="city-badge badge-status">無獨立加碼・可搭店內箱購價</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>無獨立寵物券加碼方案，但賣場品項極齊全（含犬貓與水族小寵），可直接搭配店內<strong>飼料/罐頭箱購特價與會員點數折抵</strong>。
+          </div>
+          <ul class="branch-list">
+            <li><strong>板橋區</strong>：板橋文化店（24H）、板橋中山店、板橋長江店</li>
+            <li><strong>中永和/土城</strong>：永和保生店、中和中正店、土城金城店</li>
+            <li><strong>汐止區</strong>：汐止大同店、汐止南興店</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.petsmall.com.tw/" target="_blank" rel="noopener noreferrer">🔗 魚中魚官網</a>
+          <a class="card-link" href="https://www.petsmall.com.tw/page/store" target="_blank" rel="noopener noreferrer">📍 門市資訊</a>
+          <a class="card-link" href="https://www.facebook.com/petsmall.tw/" target="_blank" rel="noopener noreferrer">📘 FB 粉專</a>
+        </div>
+      </article>
+
+      <!-- 貓狗大棧（熊寶貝） -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>3. 熊寶貝（貓狗大棧寵物百貨）</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-ntpc">新北市適用</span>
+              <span class="city-badge badge-status">官網有收券公告・無額外加碼</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>官網發布《毛孩完成登記，300元寵物券輕鬆抽！》合作公告，持 300 元實體券可至門市直接折抵寵物食品、罐頭、零食與用品。
+          </div>
+          <ul class="branch-list">
+            <li><strong>新莊龍安店</strong>：新北市新莊區龍安路96號</li>
+            <li><strong>新莊和興店</strong>：新北市新莊區和興街41號</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.catndog.com.tw/" target="_blank" rel="noopener noreferrer">🔗 貓狗大棧官網</a>
+          <a class="card-link" href="https://www.facebook.com/catndog.tw/" target="_blank" rel="noopener noreferrer">📘 FB 粉專</a>
+        </div>
+      </article>
+
+      <!-- 中圓寵物家族 -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>4. 中圓寵物家族</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-tp">台北市適用</span>
+              <span class="city-badge badge-ntpc">新北市適用</span>
+              <span class="city-badge badge-status">官網有收券公告・無額外加碼</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>官網設有《毛孩登入計畫》專頁說明配合收券，可於指定實體門市直接折抵 300 元商品消費（附設動物醫院之醫療服務除外）。
+          </div>
+          <ul class="branch-list">
+            <li>雙北指定合作實體門市皆可折抵。</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.petsfamily.com.tw/" target="_blank" rel="noopener noreferrer">🔗 中圓寵物官網</a>
+          <a class="card-link" href="https://www.petsfamily.com.tw/Web2/ExclusiveEvents.html" target="_blank" rel="noopener noreferrer">📄 毛孩登入計畫頁</a>
+          <a class="card-link" href="https://www.facebook.com/petsfamily.tw/" target="_blank" rel="noopener noreferrer">📘 FB 粉專</a>
+        </div>
+      </article>
+
+      <!-- 金吉利 -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>5. 金吉利寵物精品</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-tp">台北市 13 店</span>
+              <span class="city-badge badge-ntpc">新北市 9 店</span>
+              <span class="city-badge badge-status">純收券折抵・店內常態批發價</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>無獨立寵物券活動頁，但大台北門市密集度高，且店內罐頭與乾糧常態性提供<strong>批發優惠價</strong>，直接現折 300 元非常划算。
+          </div>
+          <ul class="branch-list">
+            <li><strong>台北市</strong>：士林、天母、內湖、林森、錦州、大直、延平、民權、復北、饒河、忠孝、中華、公館（汀州）</li>
+            <li><strong>新北市</strong>：板橋文化、板橋中山、三重、蘆洲、永和、永和二店、竹林（永和三店）、新店、北新</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.pet.gov.tw/Web2/ExclusiveEvents.html" target="_blank" rel="noopener noreferrer">📍 農業部官網查詢分店</a>
+          <a class="card-link" href="https://www.facebook.com/jinjili.pet/" target="_blank" rel="noopener noreferrer">📘 FB 粉專</a>
+        </div>
+      </article>
+
+      <!-- 咕咕G寵物城 / 歡喜寵物 / 寵愛寶貝 -->
+      <article class="store-card">
+        <div>
+          <div class="store-header">
+            <h3>6~8. 咕咕G・歡喜寵物・寵愛寶貝</h3>
+            <div class="city-badges">
+              <span class="city-badge badge-tp">台北市適用</span>
+              <span class="city-badge badge-ntpc">新北市適用</span>
+              <span class="city-badge badge-status">純收券折抵・社區就近買</span>
+            </div>
+          </div>
+          <div class="promo-desc">
+            <strong>💡 查核與攻略：</strong>這 3 家區域型連鎖官網均無獨立寵物券加碼方案，純配合農業部政策提供 300 元實體面額折抵，適合住家在附近的飼主就近採買。
+          </div>
+          <ul class="branch-list">
+            <li><strong>咕咕G寵物城（台北/新北）</strong>：天母、木柵、內湖、建國、松山、板橋、三重、蘆洲、樹林、淡水等門市</li>
+            <li><strong>歡喜寵物生活館</strong>：台北（信義中坡、松山民生、北投光明）、新北（板橋新海、中和莒光、土城金城/學府）</li>
+            <li><strong>寵愛寶貝生活館</strong>：雙北指定合作門市</li>
+          </ul>
+        </div>
+        <div class="card-links">
+          <a class="card-link" href="https://www.coocoog.com.tw/" target="_blank" rel="noopener noreferrer">🔗 咕咕G官網</a>
+          <a class="card-link" href="https://www.facebook.com/coocoogpet/" target="_blank" rel="noopener noreferrer">📘 咕咕G FB</a>
+          <a class="card-link" href="https://www.joypet.com.tw/" target="_blank" rel="noopener noreferrer">🔗 歡喜官網</a>
+          <a class="card-link" href="https://www.facebook.com/joypet.com.tw/" target="_blank" rel="noopener noreferrer">📘 歡喜 FB</a>
+        </div>
+      </article>
+
+    </div>
+
+    <footer>
+      <p>資料來源：<a href="https://www.moa.gov.tw/" target="_blank" rel="noopener noreferrer">農業部</a>、<a href="https://www.pet.gov.tw/Web2/ExclusiveEvents.html" target="_blank" rel="noopener noreferrer">寵物登記管理資訊網「毛孩登入計畫」專區</a>、<a href="https://www.cpc.tw/" target="_blank" rel="noopener noreferrer">中華民國寵物商業同業公會全國聯合會</a>及各通路官方公告。</p>
+      <p style="margin-top: 6px;">實際折抵品項與加碼辦法依各實體門市現場公告為準，提醒您於 <strong>2026/12/10</strong> 前使用完畢！</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
